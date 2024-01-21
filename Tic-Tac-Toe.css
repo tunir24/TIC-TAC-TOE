@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body{  margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    text-align: center;
+}
+.game{
+    justify-content:center;
+    display: flex;
+    text-align:center;
+    align-items :center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width : 60vmin ;
+    height: 60vmin;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items : center;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: auto;
+    background-color: rgb(246, 244, 85);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 8vmin;
+    color: red;
+}
+.NEW,.RESET{
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+p{
+    display: inline;
+    margin-bottom : 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 800;
+    padding: 15px;
+    background-color: rgb(6, 135, 147);
+    color: rgb(11, 11, 11);
+    border: 2px double black;
+    border-radius: 22px;
+}
